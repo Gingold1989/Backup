@@ -1,27 +1,34 @@
-打印机连接问题：蓝牙连接打印机，关闭打印机后，无法正确获取打印机状态。
-此问题已解决，解决办法：打印机进行固态升级到最新版本，因此后续测试的打印机需要安装最新版本。
-
 邮箱: https://mail.zqlwl.cn/   用户名: majingang  
-OA:  http://oanew.zqlwl.com   用户名: qlwl375
+OA:  http://oanew.zqlwl.com  已改为: http://cxoa.zqlwl.com  用户名: qlwl375
 SVN地址: https://10.120.10.103:8443/svn/FHL
+
 天使App测试账号: 分拣 fjcs98; 小件员 2016008; 广东东莞虚拟站 cs112;  密码: zql@2015  权限 888 未知 1320,050326,132001;
 天使项目名: NeZaApp   别名: fhlwlsys.neza   密码: fhlwlsys   
 天使网页版: http://login.tswlsys.com/
+
 天使移动办公测试账号: qlwl192;   密码: Test@123  qlwl540  0000
 天使移动办公项目名：TS_MobileWorking	别名：ts_mobileworking	  密码：zqlwl@123
+
 立马易购商家版:  13718876543  521531
 立马易购商家版项目名: RightTesco    别名: righttesco    密码: righttesco
+
 神约项目名: WhoAroud    别名：express	密码：zqlwl@123
 神约后台管理页面: http://10.120.10.81:8086/syback/index   账号: 110    密码: 123456
-禅道地址: http://kftm.tswlsys.com/    用户名: majingang     初始密码: 123456
+
+禅道地址: http://kftm.tswlsys.com/    用户名: majingang     <初始>密码: 123456
 集团文件管理系统: http://file.zqlwl.com/index.php?user/loginSubmit&name=oa_user&password=file_sys_from_oa_user
 项目下载地址: http://file.tswlsys.com/
+
 世纪同城速递解屏:   账号: 88888888    密码: 159357
 全峰-峰秘:   账号: 18600963930    密码: qlwl2017
+
 Oracle天使数据库:   账号: fhl_rl    密码: Tswlsys@)16
+
 Wifi:  账号: zql-3  密码: zqlwl@%2016;  账号: zql-2  密码: zql2#2016;  账号: zql-ld  密码: zqlwl@2016
 百度地图:   账号: zziss    密码: zziss198314
 打印机地址:  \\192.168.120.232   用户名和密码:qlwl
+打印机连接备用方法:  win+r 输入192.168.120.6 用户名dyj密码Zqlwl@123然后双击你部门打印机或者你需要的 出现进度条等几秒就好了
+
 依赖: https://jitpack.io/
 
 D:\Win7ProgramFiles\Android_Studio\SDK\platform-tools\
@@ -38,7 +45,12 @@ adb connect phone_ip:port
 @SerializedName("tag")
 public String tag = "android";
 
-规则: {"IsOff":0,"RulesDateTime":"2017-05-11 11:32:13","Version":"1.0.0","IsSuccess":1,"list":[{"Waybillnolength":11,"Waybillnoprefix":"ZD","WaybillnoBeforeLength":2},{"Waybillnolength":10,"Waybillnoprefix":"11","WaybillnoBeforeLength":2},{"Waybillnolength":13,"Waybillnoprefix":"10","WaybillnoBeforeLength":2},{"Waybillnolength":13,"Waybillnoprefix":"769","WaybillnoBeforeLength":3},{"Waybillnolength":11,"Waybillnoprefix":"HD","WaybillnoBeforeLength":2}]}
+规则: {"IsOff":0,"RulesDateTime":"2017-05-11 11:32:13","Version":"1.0.0","IsSuccess":1,"list":[
+{"Waybillnolength":11,"Waybillnoprefix":"ZD","WaybillnoBeforeLength":2},
+{"Waybillnolength":10,"Waybillnoprefix":"11","WaybillnoBeforeLength":2},
+{"Waybillnolength":13,"Waybillnoprefix":"10","WaybillnoBeforeLength":2},
+{"Waybillnolength":13,"Waybillnoprefix":"769","WaybillnoBeforeLength":3},
+{"Waybillnolength":11,"Waybillnoprefix":"HD","WaybillnoBeforeLength":2}]}
 
 获取财务余额判断规则
 1.登陆成功时获取一次财务余额信息, 然后每隔半小时获取一次, 
@@ -51,11 +63,6 @@ public String tag = "android";
 
 http://www.weather.com.cn/data/sk/101010100.html
 
-
-17964
-
-打印机连接方法 win+r 输入192.168.120.6 用户名dyj密码Zqlwl@123然后双击你部门打印机或者你需要的 出现进度条等几秒就好了
-
 cs112   到件-派件入站- 1(-8)  发件-派件出站- 9  派件-派件出站- 2(2,3)
 fjcs98  到件-运单入库- -1  发件-运单出库- 10  派件-派件出站- 2
 2016008 到件-派件入站- 1  发件-派件出站- 9  派件-派件出站- 2
@@ -65,13 +72,14 @@ fjcs98  到件-运单入库- -1  发件-运单出库- 10  派件-派件出站- 2
 全峰问题件回复 url: qf_wentijian_reply; 全峰留仓 url: qf_liucang;
 全峰区间发件 url: qf_qujianfajian; 全峰区间到件 url: qf_qujiandaojian;
 全峰发件到商家 url: qf_sendtocustomer; 全峰图片上传: qf_uploadpic
-全峰重量上传 url: qf_weightupload
+全峰重量上传 url: qf_weightupload; 全峰小件员派件: qf_xiaojianyuan
 
--1-直接上传;0-数据库异常;1-揽件出;2-全峰到件;3-全峰发件;4-运单入站;5-运单出站;6-快速入库;
-7-出库到站点;8-天使发件; 9-全峰派件;10-全峰签收(改为-1);11-全峰收件(改为-1);12-全峰录入订单(改为-1);13-全峰抛件扫描
+-1-直接上传;0-数据库异常;1-揽件出;2-青旅到件;3-青旅发件;4-运单入站;5-运单出站;6-快速入库;
+7-出库到站点;8-青旅派件; 9-青旅收件(暂为-1);10-青旅留仓;11-天使发件;12-青旅区间到件;13-青旅区间发件
+14-青旅发件到商家; 15-青旅上传重量(暂未启动)
 
-operatType  -6-揽件出; -1-入库; 10-出库; 1-入站; 2-出站;
-全峰  801-发件; 802-到件; 2-派件
+天使operatType:  -6-揽件出; -1-入库; 10-出库; 1-入站; 2-出站;
+青旅:  801-发件; 802-到件; 2-派件
 
 ---扫描表 ex_scan ---从扫描表同步到天使当中 ex_scan_fail ----同步表示表 ex_scan_syn
 ---扫描表日志 ex_scan_log ---揽件表 ordercomplexquery ---运单日志表 operatelog
@@ -80,7 +88,7 @@ operatType  -6-揽件出; -1-入库; 10-出库; 1-入站; 2-出站;
 天使物流系统（分配分拣配送）操作
 登陆三个浏览器
 三个有权限的角色账户进行业务流程操作处理,使用三个浏览器避免冲突
-TSWL系统登录地址 http://login.tswlsys.com/# 
+TSWL系统登录地址 http://login.tswlsys.com/
 
 1运单分配站点账号 （自己的工号和密码）（我们是it中心的是超级管理员有权限）
 2分拣出入库账号 fjcs98 zql@2015（有分拣权限）
@@ -102,30 +110,21 @@ TSWL系统登录地址 http://login.tswlsys.com/#
 Mysql		select * from express_ops_cwb_detail a where cwb =’运单号’
 Oracle日志	select a.issyn,a.*  from fhl_dcs.operatelog a where a.DELIVERCODE='运单号'
 
-登陆标识验证   账户财务信息(首页和服务)   全峰收件测试  全峰收发到派签正式地址  全峰到件判断账户类型
 
-http://nzapi.tswlsys.com/api/uploadfile/Sign/SignUploadFile  签收拍照上传
-http://nzapi.tswlsys.com/api/uploadfile/Sign/UploadPics  签收拍照多张上传
 
-http://10.120.10.78:8041/api-consumerfile\2017\7\26\6151420eef41468c86ec1c1600730c0c_quanfengkuaidi.png
+1，用户相互之间发送及时通讯消息，发送表情等。
+2发布图片，观看图片。
+3发布任务，应邀任务。
+使用Java语言开发，使用gradle自动化构建工具进行自动打包维护。
+使用xmpp实现及时聊天功能。
+接入个推实现推送功能。
+使用高德地图实现定位和距离计算功能。
+利用Glide实现图片的缓存和加载。
+利用核心动画API实现简单的动画组功能。
 
- http://nzapi.tswlsys.com/api/ExpressOrder/ExpressEntering/AddExpressOrder, json: {"AcceptAmount":10.0,"AccountType":1,"DeliverCode":"72829","DeliverFeeType":1,"ExpressBusinessType":0,"FinacialWeight":1,"Version":"1","MerchantNo":"","OrderForm":"android","ReplaceType":0,"SignBackOrder":"","WaybillNo":"72829","SiteNo":"769888","isSiteNo":true,"IsAdd":true,"IsAutoWaybillNo":false,"UserName":"测试2","DistributionCode":"rfd","SystemDistributionCode":"rfd","StationId":1085801,"UserId":55873661,"DeptId":1085801}
-{"AcceptAmount":10.0,"AccountType":1,"DeliverCode":"72829","DeliverFeeType":1,"ExpressBusinessType":0,"FinacialWeight":1,"Version":"1","MerchantNo":"","OrderForm":"android","ReplaceType":0,"SignBackOrder":"","WaybillNo":"72829","SiteNo":"769888","isSiteNo":true,"IsAdd":true,"IsAutoWaybillNo":false,"UserName":"财务测试","DistributionCode":"qlkd","SystemDistributionCode":"qlkd","StationId":1935800,"UserId":57683701,"DeptId":1935800}
-{"AcceptAmount":10.0,"AccountType":1,"DeliverCode":"72831","DeliverFeeType":1,"ExpressBusinessType":0,"FinacialWeight":1,"Version":"1","MerchantNo":"","OrderForm":"android","ReplaceType":3,"SignBackOrder":"1011","WaybillNo":"72831","SiteNo":"769888","isSiteNo":true,"IsAdd":true,"IsAutoWaybillNo":false,"UserName":"分拣测试","DistributionCode":"qlkd","SystemDistributionCode":"qlkd","StationId":1925801,"UserId":57693452,"DeptId":1925801}
-{"AcceptAmount":10.0,"AccountType":1,"DeliverCode":"72032","DeliverFeeType":1,"ExpressBusinessType":0,"FinacialWeight":1,"Version":"1","MerchantNo":"","OrderForm":"android","ReplaceType":4,"SignBackOrder":"1012","WaybillNo":"72032","SiteNo":"769888","isSiteNo":true,"IsAdd":true,"IsAutoWaybillNo":false,"UserName":"分拣测试","DistributionCode":"qlkd","SystemDistributionCode":"qlkd","StationId":1925801,"UserId":57693452,"DeptId":1925801}
+http://10.120.10.78:8041/api-consumerfile/2017/8/22/96acb1c696694a2fa37b4225bc9ca376_storageemulated0Pictures1503379851338.jpg
 
-检查揽件
+http://nzapi.tswlsys.com/api/other/Common/GetStationNameV2
 
-青旅商配
-青旅快递
-
-Error:Execution failed for task ':testPort:compileDebugNdk'.
-> Error: Your project contains C++ files but it is not using a supported native build system.
-Consider using CMake or ndk-build integration with the stable Android Gradle plugin:
- https://developer.android.com/studio/projects/add-native-code.html
-or use the experimental plugin:
- https://developer.android.com/studio/build/experimental-plugin.html.
-
- url: http://10.120.10.78:8043/qlwl-fms-consumer/AccountProfile/getAccountProfile, json: {"AppKey":"zqlwl","Data":{"Distributioncode":"qlkd","Stationid":1925801,"Status":2},"Tag":"android"}
- 
- {"mobileHead":{"code":"fps_002","message":"操作失败:失败，帐号信息返回结果失败"}}
+Error:Execution failed for task ':app:transformClassesWithJarMergingForDebug'.
+> com.android.build.api.transform.TransformException: java.util.zip.ZipException: duplicate entry: com/baidu/mapapi/VersionInfo.class
