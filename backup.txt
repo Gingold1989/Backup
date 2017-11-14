@@ -3,21 +3,29 @@ OA:  http://oanew.zqlwl.com  已改为: http://cxoa.zqlwl.com  用户名: qlwl37
 SVN地址: https://10.120.10.103:8443/svn/FHL
 
 天使App测试账号: 分拣 fjcs98; 小件员 2016008; 广东东莞虚拟站 cs112;  密码: zql@2015  权限 888 未知 1320,050326,132001;
+O2O站长账号: yzcs001;  其它账号: yzcs002  yzcs003  yzcs004
 天使项目名: NeZaApp   别名: fhlwlsys.neza   密码: fhlwlsys   
 天使网页版: http://login.tswlsys.com/
 
 天使移动办公测试账号: qlwl192;   密码: Test@123  qlwl540  0000
 天使移动办公项目名：TS_MobileWorking	别名：ts_mobileworking	  密码：zqlwl@123
 
-立马易购商家版:  13718876543  521531
+立马易购商家版:  账户: 13718876543  密码: 521531; 账户: 15801272160  密码: 278850
 立马易购商家版项目名: RightTesco    别名: righttesco    密码: righttesco
 
 神约项目名: WhoAroud    别名：express	密码：zqlwl@123
 神约后台管理页面: http://10.120.10.81:8086/syback/index   账号: 110    密码: 123456
 
+聊天后台管理平台：http://10.120.10.84:8092/console/login   账号: admin    密码: zql@2016
+
+鲜花后台: http://flower.tswlsys.com/flower/sell/maintain/maintainIndex
+			http://flower.tswlsys.com/flower/   账号: sell    密码: 1
+			http://flower.tswlsys.com/flower/sell/point/index
+
 禅道地址: http://kftm.tswlsys.com/    用户名: majingang     <初始>密码: 123456
 集团文件管理系统: http://file.zqlwl.com/index.php?user/loginSubmit&name=oa_user&password=file_sys_from_oa_user
 项目下载地址: http://file.tswlsys.com/
+项目SVN地址: https://10.120.10.103:8443/svn/SHENYUE/runningfish
 
 世纪同城速递解屏:   账号: 88888888    密码: 159357
 全峰-峰秘:   账号: 18600963930    密码: qlwl2017
@@ -30,6 +38,9 @@ Wifi:  账号: zql-3  密码: zqlwl@%2016;  账号: zql-2  密码: zql2#2016;  �
 打印机连接备用方法:  win+r 输入192.168.120.6 用户名dyj密码Zqlwl@123然后双击你部门打印机或者你需要的 出现进度条等几秒就好了
 
 依赖: https://jitpack.io/
+
+bintray: 3565a84b1cd96478c53921cf5d0b42e727cf3a24
+上传命令: gradlew clean build bintrayUpload -PbintrayUser=Gingod -PbintrayKey=3565a84b1cd96478c53921cf5d0b42e727cf3a24 -PdryRun=false
 
 D:\Win7ProgramFiles\Android_Studio\SDK\platform-tools\
 D:\Win7ProgramFiles\eclipse-jee-oxygen-M3-win32-x86_64\sdk\platform-tools
@@ -128,3 +139,48 @@ http://nzapi.tswlsys.com/api/other/Common/GetStationNameV2
 
 Error:Execution failed for task ':app:transformClassesWithJarMergingForDebug'.
 > com.android.build.api.transform.TransformException: java.util.zip.ZipException: duplicate entry: com/baidu/mapapi/VersionInfo.class
+
+https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504093669349&di=4764ed336dbb9a7c226cbe1a52e84afc&imgtype=0&src=http%3A%2F%2Fpic23.photophoto.cn%2F20120530%2F0020033092420808_b.jpg
+https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504093669349&di=d5beab650483e46fec8c587cb0499da9&imgtype=0&src=http%3A%2F%2Fimg.taopic.com%2Fuploads%2Fallimg%2F140326%2F235113-1403260G01561.jpg
+https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504093669345&di=831e3f593af5ec1d25f4ce57e5f1c582&imgtype=0&src=http%3A%2F%2Fimgsrc.baidu.com%2Fimage%2Fc0%253Dshijue1%252C0%252C0%252C294%252C40%2Fsign%3D16f6ff0030292df583cea456d4583615%2Fe1fe9925bc315c60b6b051c087b1cb13495477f3.jpg
+
+新需求
+1. 全峰签收添加无现金签收功能
+2. 消息增加收到消息声音提醒功能
+3. 增加下单窗口, 下单有铃声提示, 下单窗口有红点提示, 进去下单窗口有排序显示
+
+if ("3ab72ac7d05148daab9af78068bec29a".equals(roomJid)) {//测试02
+                        lastTime = 1508985000;//1508995795
+                        Log.e("tag2", "1508995000 : " + lastTime + " : " + friends.get(i).getTimeSend());
+                    }
+					
+					1509087044  1509088129  1509088223
+
+					
+167  
+
+380  
+
+
+
+
+
+
+			
+if ("3ab72ac7d05148daab9af78068bec29a".equals(roomJid)) {
+                        lastTime = 1508985000;//1508995795
+                        Log.e("tag-timesend", friends.get(i).getTimeSend() + "");
+                    }
+					
+https://10.120.10.103:8443/svn/FHL/fhl_APP/Client/Android/RunningFish_Studio
+
+{"description":"55","jobName":"","messageId":"3cc062dc25524d6bb757b333ca946c03","name":"","opId":0,"roomId":"59fc4bf6e4b006183b92ace6","roomJid":"7f570ec4add8439bacd2538f9f307f38","status":0,"time":1509848529,"title":"测试06、马金刚","toName":"","toUserId":7068,"type":"groupchat","userId":6394}
+
+测试01  9190
+03 7068
+04 7889
+05 9046
+06 8533
+07 8278
+08 4618
+
